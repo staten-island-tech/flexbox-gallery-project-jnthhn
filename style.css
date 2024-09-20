@@ -47,3 +47,13 @@ body{
 #scale:hover{
     transform: scale(1.1);
 }
+#rotate:hover figure img {
+    -webkit-transform: rotate(15deg) scale(1.4);
+    transform: rotate(15deg) scale(1.4);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+  }
+#stretch:hover{
+    transform: skew(30deg, 20deg);
+    transform: skew();
+}
