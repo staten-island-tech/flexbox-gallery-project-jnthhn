@@ -15,7 +15,6 @@ html,
 }
 .card{
     margin-top: 5%;
-    margin-bottom: 10%;
     width: 30%;
     height: 35rem;
     border-radius: 3px;
@@ -25,6 +24,10 @@ html,
     justify-content: space-around;
     box-shadow: 3rem 8rem 1rem  rgb(201, 183, 155);
     transition-duration: 0.4s;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: .3s ease-in-out;
 }
 .card-img{
     width: 100%;
@@ -44,16 +47,14 @@ html,
 body{
     background-color: blanchedalmond;
 }
-#scale:hover{
-    transform: scale(1.1);
-}
-#rotate:hover figure img {
-    -webkit-transform: rotate(15deg) scale(1.4);
-    transform: rotate(15deg) scale(1.4);
-    -webkit-transition: .3s ease-in-out;
-    transition: .3s ease-in-out;
-  }
 #stretch:hover{
     transform: skew(30deg, 20deg);
-    transform: skew();
+    
+}
+#rotate:hover{
+    transform: rotate(15deg) scale(1.2);
+  }
+#flip:hover{
+    transform: rotateY(1turn);
+    transition-duration: 1s;
 }
