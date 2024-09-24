@@ -15,8 +15,8 @@ html,
 }
 .card{
     margin-top: 5%;
-    width: 30%;
-    height: 35rem;
+    width: 21%;
+    height: 25rem;
     border-radius: 3px;
     display: flex;
     flex-direction: column;
@@ -48,7 +48,7 @@ body{
     background-color: blanchedalmond;
 }
 #stretch:hover{
-    transform: skew(30deg, 20deg);
+    transform: scale(1.2, 0.75);
     
 }
 #rotate:hover{
@@ -57,4 +57,9 @@ body{
 #flip:hover{
     transform: rotateY(1turn);
     transition-duration: 1s;
+}
+#zoom:hover{
+    display: flex;
+    overflow: hidden;
+    transform:scale(1.5);
 }
