@@ -58,8 +58,20 @@ body{
     transform: rotateY(1turn);
     transition-duration: 1s;
 }
-#zoom:hover{
-    display: flex;
-    overflow: hidden;
-    transform:scale(1.5);
+#blur{
+    filter: blur(4px);
+    transition: 0.4s ease-in-out; 
+}
+#blur:hover{
+    filter: blur(0);
+}
+#grayscale{
+    filter: grayscale(100%); 
+    transition: 0.4s ease-in-out;
+}
+#grayscale:hover{
+    filter: grayscale(0%);
+}
+#squish:hover{
+    transform:scale(0.75,1.2);
 }
