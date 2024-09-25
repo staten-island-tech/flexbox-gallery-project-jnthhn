@@ -81,8 +81,6 @@ body{
     transform: translateX(-50%); 
     width: 2000; 
     height: auto; 
-    background-image: url('plane.png'); 
-    background-size: cover; 
     animation: fly 6s forwards; 
 }
 
